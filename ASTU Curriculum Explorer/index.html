@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to the ASTU Curriculum Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuoA_KaSPK_VvOruKwXHmmPPXJGnwCsxFnDw&s" alt="ASTU Logo" id="astuLogo">
+
+  <!-- Welcome Page -->
+  <div id="welcomePage">
+    <h1>Welcome to the ASTU Curriculum Explorer</h1>
+    <h2>We’re delighted to have you here.  
+      Finding the right academic program at Adama Science and Technology University just got easier!</h2>
+    <h4>This user-friendly website helps you quickly navigate through streams, departments, and sub-departments 
+      to explore the curriculum and find the information you need..</h4>
+    <div class="button-container">
+      <button id="nextButton" class="next-button"> Get Started  </button>
+    </div>
+    <footer>
+      <p>&copy; 2025 Eleni Tadese</p>
+      <p>Developed by Eleni Tadese </p>
+  </footer>>
+  </div>
+
+  <!-- About Page -->
+  <div id="aboutPage" style="display: none;">
+    <h1 >About This Website</h1>
+    <h4>The ASTU Curriculum Explorer was developed to simplify the process of exploring academic programs at Adama Science and Technology University. </h4>
+    <h4>We understand that navigating university curriculum can be challenging, 
+       so we created this website to provide a user-friendly and centralized resource for students to find the information they need.</h4>  
+       <h2>This website allows you to:</h2>
+           <h4>Easily browse through different academic streams (Engineering and Applied Science)</h4>
+           <h4>Quickly find the departments and sub-departments (for Engineering) that interest you.</h4>
+           <h4>Access detailed curriculum information (coming soon!).</h4>
+           <h4>Plan your academic journey more effectively.</h4>
+    <div class="button-container">
+      <button id="nextToStreamButton" class="next-button">Next</button>
+      <button id="backToWelcomeButton" class="back-button">Back</button>
+    </div>
+  </div>
+
+
+  <!-- Stream Selection Page -->
+  <div id="streamSelectionPage" style="display: none;">
+    <h1>Curriculum Courses</h1>
+      <h2>Select Your Stream</h2>
+    <p>Navigate the ASTU curriculum with ease. Select your program below to browse courses and plan your academic path:</p>
+    <div class="stream-options">
+      <div class="stream-option">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0rRXD5wuYj4h5X23XxGvmmdowRBQjliFdfw&s" alt="Engineering" class="stream-image">
+        <button id="engineeringButton" class="next-button">Engineering</button>
+      </div>
+      <div class="stream-option">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuKjTs77YQPOkb4d0gblLqWu5OKuIGDCIdnQ&s" alt="Applied Science" class="stream-image">
+        <button id="appliedButton" class="next-button">Applied Science</button>
+      </div>
+    </div>
+    <div class="button-container">
+      <button id="backToAboutButton" class="back-button">Back</button>
+    </div>
+  </div>
+
+ <!-- Department Selection Page -->
+<div id="departmentSelectionPage" style="display: none;">
+    <h1>Department with in your steam </h1>
+    <h2>Welcome to the program at ASTU! The following departments are available within this stream.</h2>
+    
+    <div id="appliedDepartments" class="department-options" style="display: none;">
+      <div class="department-button-container">
+        <div class="column">
+          <button class="department-button" style="background-color: #ff5733;">Applied Maths</button>
+          <button class="department-button" style="background-color: #33c4ff;">Applied Chemistry</button>
+          <button class="department-button" style="background-color: #75ff33;">Applied Physics</button>
+          <button class="department-button" style="background-color: #ff33a1;">Applied Biology</button>
+        </div>
+        <div class="column">
+          <button class="department-button" style="background-color: #ffc733;">Geology</button>
+          <button class="department-button" style="background-color: #ff8033;">Industrial Chemistry</button>
+          <button class="department-button" style="background-color: #33ff57;">Pharmacy</button>
+        </div>
+      </div>
+      <h2>Thank you for using the ASTU Curriculum Explorer! The available programs are as above.
+         I  wish you the best of luck in your learning progress.
+      </h2>
+    </div>
+    
+    <div id="engineeringDepartments" class="department-options" style="display: none;">
+      <div class="department-button-container">
+        <button id="schoolOfElectrical" class="department-button" style="background-color: #007bff;">School of Electrical</button>
+        <button id="schoolOfMechanical" class="department-button" style="background-color: #28a745;">School of Mechanical</button>
+        <button id="schoolOfCivil" class="department-button" style="background-color: #dc3545;">School of Civil and Architecture</button>
+      </div>
+    </div>
+    <div class="button-container">
+      <button id="backToStreamButton" class="back-button">Back</button>
+    </div>
+</div>
+
+  <!-- Sub-Department Selection Page (Engineering Only) -->
+  <div id="subDepartmentSelectionPage" style="display: none;">
+    <h1>Sub-Department Selection</h1>
+    <h2>Welcome to the program at ASTU! The following departments are available within this stream.</h2>
+
+    <div id="electricalSubDepartments" class="sub-department-options" style="display: none;">
+      <div class="department-button-container">
+          <button class="sub-department-button">Software Engineering</button>
+          <button class="sub-department-button">Computer Science and Engineering (CSE)</button>
+          <button class="sub-department-button">Power and Control</button>
+          <button class="sub-department-button">Communication and Electronics</button>
+      </div>
+    </div>
+   <div id="mechanicalSubDepartments" class="sub-department-options" style="display: none;">
+      <div class="department-button-container">
+          <button class="sub-department-button">Mechanical Engineering</button>
+          <button class="sub-department-button">Chemical Engineering</button>
+          <button class="sub-department-button">Material Engineering</button>
+      </div>
+    </div>
+
+    <div id="civilSubDepartments" class="sub-department-options" style="display: none;">
+      <div class="department-button-container">
+          <button class="sub-department-button">Civil Engineering</button>
+          <button class="sub-department-button">Architectural Engineering</button>
+          <button class="sub-department-button">Water Engineering</button>
+      </div>
+    </div>
+
+    <div class="button-container">
+        <button id="backToDepartmentButton" class="back-button">Back</button>
+    </div>
+    <h2>Thank you for using the ASTU Curriculum Explorer! The available programs are as above.
+      I  wish you the best of luck in your learning progress.
+
+   </h2>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>

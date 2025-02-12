@@ -1,0 +1,181 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1828&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo Styling */
+#astuLogo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Page Styling */
+#welcomePage, #aboutPage, #streamSelectionPage, #departmentSelectionPage, #subDepartmentSelectionPage, #semesterInputPage, #courseInputPage, #gpaCalculationPage {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Stream Options */
+.stream-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Stream Option */
+.stream-option {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column; /* Stack image and button vertically */
+    align-items: center; /* Center-align the button */
+}
+
+/* Stream Image */
+.stream-image {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.next-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    transition: background-color 0.2s, transform 0.1s;
+    margin: 0 10px;
+}
+
+.back-button {
+    padding: 15px 30px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Hover Effect for Buttons */
+.next-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.back-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Department Button Styling */
+/* Department Button Container */
+.department-button-container {
+    display: flex; /* Use flexbox for column layout */
+    justify-content: center; /* Center the columns */
+    margin-top: 20px; /* Space above the department buttons */
+}
+
+/* Column Styling */
+.column {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    margin: 0 20px; /* Space between columns */
+}
+
+/* Department Button Styling *//* Department Button Container */
+.department-button-container {
+    display: flex; /* Use flexbox for column layout */
+    justify-content: center; /* Center the columns */
+    margin-top: 20px; /* Space above the department buttons */
+}
+
+/* Column Styling for Applied Science */
+.column {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    margin: 0 20px; /* Space between columns */
+}
+
+/* Department Button Styling */
+.department-button {
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin: 10px 0; /* Space between buttons */
+    transition: transform 0.1s, background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Hover Effect for Department Buttons */
+.department-button:hover {
+    transform: scale(1.05);
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+/* Engineering Button Container */
+#engineeringDepartments .department-button-container {
+    flex-direction: column; /* Stack engineering buttons vertically */
+    align-items: center; /* Center-align buttons */
+}
+
+/* Sub-Department Button Container */
+.department-button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center-align buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+/* Sub-Department Button Styling */
+.sub-department-button {
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin: 10px 0; /* Space between buttons */
+    transition: transform 0.1s, background-color 0.3s; /* Transition for hover effect */
+    background-color: #007bff; /* Default background color */
+}
+
+/* Hover Effect for Sub-Department Buttons */
+.sub-department-button:hover {
+    transform: scale(1.05);
+    background-color: #0056b3; /* Change the background color on hover */
+}
+footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: white;
+    position: absolute; /* Positioning for fixed placement */
+    bottom: 10px; /* Adjust as necessary */
+    right: 20px; /* Adjust as necessary */
+    text-align: right; /* Align text to the right */
+}
