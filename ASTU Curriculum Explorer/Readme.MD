@@ -28,4 +28,4 @@ To run this project locally, you need to have a web browser. No additional softw
 1. **Clone the Repository:**
    Open your terminal or command prompt and run:
    ```bash
-   git clone https://github.com/elenitadese /astu-curriculum-explorer.git
+   git clone https://github.com/elenitadese /EleniTadese/Astu-curriculum-explorer.git
